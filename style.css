@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: background-color 1s cubic-bezier(0, 1.74, 0.86, -0.44);
+}
+
+.box:hover {
+  background-color: green;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  transition: width 400ms linear, height 600ms linear,
+    background-color 800ms linear;
+}
+
+.box2:hover {
+  width: 100px;
+  height: 400px;
+  background-color: rgb(255, 127, 80);
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: mediumaquamarine;
+  transform: skew(10deg, 16deg);
+}
